@@ -1,0 +1,4 @@
+Variable,Test,Statistic,Chi2_Statistic,Degrees_of_Freedom,P_Value,Adjusted_P_Value,Minimum_Expected_Frequency,Cramers_V,Association_Strength,Significant,Statistical_Conclusion
+Signup_Quarter,Chi-square,9.144816763975175,9.144816763975175,3,0.027426162558254738,0.08227848767476421,3598.917,0.013523917157373581,Very Weak,False,No statistically significant association
+Gender,Chi-square,2.963880050963615,2.963880050963615,2,0.22719649357069535,0.22719649357069535,270.793,0.007699194829283923,Very Weak,False,No statistically significant association
+Country,Chi-square,9.439601259129883,9.439601259129883,7,0.22261552468720677,0.22719649357069535,736.372,0.01374016103190198,Very Weak,False,No statistically significant association

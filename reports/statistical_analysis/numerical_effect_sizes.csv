@@ -1,0 +1,21 @@
+Variable,Cohens_d,Cohens_d_Interpretation,Rank_Biserial_Correlation,Rank_Biserial_Interpretation
+Session_Duration_Avg,-0.4963527161051979,Small,0.2799640469342366,Small
+Login_Frequency,-0.46058366153795616,Small,0.2716140354975447,Small
+Cart_Abandonment_Rate,0.6420868872178407,Medium,-0.3559668267803523,Medium
+Pages_Per_Session,-0.5087179899258599,Medium,0.2901351807240642,Small
+Wishlist_Items,-0.4259143420079273,Small,0.2689706471220903,Small
+Total_Purchases,-0.35977438186409394,Small,0.24000929146044125,Small
+Product_Reviews_Written,-0.3908511892818224,Small,0.2523918064619741,Small
+Social_Media_Engagement_Score,-0.40328007355458895,Small,0.2361676025287256,Small
+Customer_Service_Calls,0.669436981076018,Medium,-0.3780486492536951,Medium
+Email_Open_Rate,-0.48856993337651555,Small,0.2872819509536255,Small
+Mobile_App_Usage,-0.4770770464828967,Small,0.27263510723723594,Small
+Average_Order_Value,0.09337103271801532,Negligible / Very Small,-0.19327939108132708,Small
+Credit_Balance,-0.33010222666799505,Small,0.18915814073457637,Small
+Days_Since_Last_Purchase,0.3301599570899828,Small,-0.16514820297937993,Small
+Age,-0.2259718707650568,Small,0.1258935891258961,Small
+Discount_Usage_Rate,-0.16738739325306257,Negligible / Very Small,0.10262251227619368,Small
+Returns_Rate,0.11292234371744507,Negligible / Very Small,-0.08611988183707342,Very Small
+Lifetime_Value,-0.02356975285718835,Negligible / Very Small,0.07044756495797633,Very Small
+Payment_Method_Diversity,0.010517130462819707,Negligible / Very Small,-0.004119484716199717,Very Small
+Membership_Years,-0.0013750548369593314,Negligible / Very Small,-0.0014666686133376627,Very Small
