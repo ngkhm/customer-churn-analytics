@@ -1,0 +1,19 @@
+{
+  "model_name": "Tuned XGBoost",
+  "target": "Churned",
+  "random_state": 42,
+  "analysis_dataset": "validation split sample",
+  "n_samples": 2000,
+  "processed_feature_count": 54,
+  "top_n_features": 20,
+  "shap_output_scale": "XGBoost binary raw margin (log-odds; not probability points)",
+  "shap_consistency_validation": "passed: SHAP additivity to raw margin and logistic-link probability consistency",
+  "churn_class": 1,
+  "threshold": 0.4,
+  "local_customer_identifier_column": "Customer_Row_Index",
+  "local_customer_identifier": 21742,
+  "local_customer_dataset_index": 21742,
+  "local_customer_prediction": "No Churn",
+  "local_customer_churn_probability": 0.024680178612470627,
+  "local_customer_explanation_dataset": "saved test split"
+}
