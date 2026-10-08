@@ -1,0 +1,93 @@
+{
+  "random_state": 42,
+  "algorithm": "KMeans",
+  "selected_k": 2,
+  "min_k": 2,
+  "max_k": 6,
+  "n_init": 10,
+  "scaler": "StandardScaler",
+  "features": [
+    "Login_Frequency",
+    "Session_Duration_Avg",
+    "Pages_Per_Session",
+    "Email_Open_Rate",
+    "Mobile_App_Usage",
+    "Social_Media_Engagement_Score",
+    "Total_Purchases",
+    "Average_Order_Value",
+    "Days_Since_Last_Purchase",
+    "Cart_Abandonment_Rate",
+    "Discount_Usage_Rate",
+    "Returns_Rate",
+    "Membership_Years",
+    "Customer_Service_Calls",
+    "Product_Reviews_Written",
+    "Lifetime_Value",
+    "Credit_Balance"
+  ],
+  "requested_features": [
+    "Login_Frequency",
+    "Session_Duration_Avg",
+    "Pages_Per_Session",
+    "Email_Open_Rate",
+    "Mobile_App_Usage",
+    "Social_Media_Engagement_Score",
+    "Total_Purchases",
+    "Average_Order_Value",
+    "Days_Since_Last_Purchase",
+    "Cart_Abandonment_Rate",
+    "Discount_Usage_Rate",
+    "Returns_Rate",
+    "Membership_Years",
+    "Customer_Service_Calls",
+    "Product_Reviews_Written",
+    "Lifetime_Value",
+    "Credit_Balance"
+  ],
+  "dropped_constant_features": [],
+  "dropped_all_missing_features": [],
+  "median_imputation_used": false,
+  "imputer": null,
+  "silhouette_score": 0.2675587653735706,
+  "silhouette_sample_size": 2000,
+  "inertia": 621604.0751028326,
+  "dataset_rows": 50000,
+  "dataset_columns": 33,
+  "numeric_feature_contract_count": 25,
+  "k_evaluation": [
+    {
+      "K": 2,
+      "Inertia": 621604.0751028326,
+      "Silhouette": 0.2675587653735706,
+      "Smallest_Segment_Percentage": 37.012
+    },
+    {
+      "K": 3,
+      "Inertia": 566310.4438763952,
+      "Silhouette": 0.14555120644105562,
+      "Smallest_Segment_Percentage": 18.59
+    },
+    {
+      "K": 4,
+      "Inertia": 544332.4406462845,
+      "Silhouette": 0.09705509072166149,
+      "Smallest_Segment_Percentage": 11.21
+    },
+    {
+      "K": 5,
+      "Inertia": 499189.10093231953,
+      "Silhouette": 0.0974939031685719,
+      "Smallest_Segment_Percentage": 0.05
+    },
+    {
+      "K": 6,
+      "Inertia": 471136.2984950524,
+      "Silhouette": 0.09938301446476905,
+      "Smallest_Segment_Percentage": 0.05
+    }
+  ],
+  "selection_rationale": "K=2 selected after reviewing silhouette, inertia/elbow behavior, smallest segment size (37.0%), and business interpretability.",
+  "business_priority_score": "Churn_Rate * Customer_Count * Avg_Lifetime_Value",
+  "business_priority_score_type": "heuristic",
+  "shap_used_for_clustering": false
+}
