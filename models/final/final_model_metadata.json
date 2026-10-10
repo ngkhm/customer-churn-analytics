@@ -6,7 +6,7 @@
   "threshold": 0.4,
   "threshold_selection_metric": "F1",
   "feature_source": "06_preprocessing",
-  "preprocessor_path": "D:\\Desktop\\Projects\\customer-churn-analytics\\models\\preprocessor.joblib",
+  "preprocessor_path": "D:\\Desktop\\Projects\\customer-churn-analytics\\models\\preprocessor\\preprocessor.joblib",
   "original_feature_count": 32,
   "processed_feature_count": 54,
   "processed_feature_names": [

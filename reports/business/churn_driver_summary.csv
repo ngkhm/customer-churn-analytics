@@ -1,0 +1,6 @@
+Rank,Feature,Mean_Abs_SHAP
+1,num__Lifetime_Value,0.8357534
+2,num__Customer_Service_Calls,0.80677485
+3,num__Cart_Abandonment_Rate,0.44091135
+4,num__Age,0.4162681
+5,num__Cart_Recency_Interaction,0.32792693

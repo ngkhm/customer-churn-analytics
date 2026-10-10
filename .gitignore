@@ -30,3 +30,6 @@ Thumbs.db
 
 # Spec
 spec/
+
+#py
+.py/

@@ -1,0 +1,3 @@
+Segment,Segment_Name,Customer_Count,Customer_Percentage,Churned_Count,Churn_Rate,Churn_Rate_vs_Overall,Avg_Lifetime_Value,Avg_Engagement_Score,Business_Priority,Retention_Priority_Score,Retention_Priority_Rank,Recommended_Action,Churn_Classification
+0,Loyal High-Value Customers (Segment 0),18506,37.012,3787,0.2046363341618934,-0.08436366583810659,2102.157397060412,0.4406553659632803,MAINTAIN,7960870.062667781,2,Protect loyalty with relevant benefits and maintain engagement.,Below Overall Churn
+1,At-Risk Customers (Segment 1),31494,62.988,10663,0.3385724264939354,0.049572426493935395,1051.9079764399569,0.2185247736797643,HIGH,11216494.75277926,1,Investigate friction and test targeted retention offers.,Above Overall Churn
